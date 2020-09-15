@@ -1,0 +1,2 @@
+ALTER TABLE public.person
+	ADD COLUMN enabled BIT(1) NOT NULL DEFAULT '1'
